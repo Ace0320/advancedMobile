@@ -70,57 +70,57 @@ var roles = [
 
 
 
-// Slide 52
+// // Slide 52
 
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      // home: HomePage(),
-      routes: {
-        '/' : (context) => HomePage(),
-        '/Australia' : (context) => Australia(),
-        '/NewZealand' : (context) => NewZealand(),
-      }
-    );
-  }
-}
+// class MyApp extends StatelessWidget {
+//   // This widget is the root of your application.
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: 'Flutter Demo',
+//       // home: HomePage(),
+//       routes: {
+//         '/' : (context) => HomePage(),
+//         '/Australia' : (context) => Australia(),
+//         '/NewZealand' : (context) => NewZealand(),
+//       }
+//     );
+//   }
+// }
 
-// Slide 53
+// // Slide 53
 
-class HomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(title: Text('Hello')),
-        body: Center(
-            child:
-                Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-          RaisedButton(
-              color: Colors.amber,
-              child: Text(
-                '=>  Australia        ',
-                style: TextStyle(color: Colors.white, fontSize: 48.0),
-              ),
-              onPressed: () {
-               Navigator.pushNamed(context, '/Australia');
-              }),
-          RaisedButton(
-              color: Colors.lightBlue[100],
-              child: Text('=> New Zealand',
-                  style: TextStyle(color: Colors.white, fontSize: 48.0)),
-              onPressed: () {
-                Navigator.pushNamed(context, '/NewZealand');
-              }),
-        ])));
-  }
-}
+// class HomePage extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//         appBar: AppBar(title: Text('Hello')),
+//         body: Center(
+//             child:
+//                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+//           RaisedButton(
+//               color: Colors.amber,
+//               child: Text(
+//                 '=>  Australia        ',
+//                 style: TextStyle(color: Colors.white, fontSize: 48.0),
+//               ),
+//               onPressed: () {
+//                Navigator.pushNamed(context, '/Australia');
+//               }),
+//           RaisedButton(
+//               color: Colors.lightBlue[100],
+//               child: Text('=> New Zealand',
+//                   style: TextStyle(color: Colors.white, fontSize: 48.0)),
+//               onPressed: () {
+//                 Navigator.pushNamed(context, '/NewZealand');
+//               }),
+//         ])));
+//   }
+// }
 
 
 
-/* 
+
 
 // Slide 57
 
@@ -199,7 +199,3 @@ class HomePage extends StatelessWidget {
         ])));
   }
 }
-
-*/
-
-
