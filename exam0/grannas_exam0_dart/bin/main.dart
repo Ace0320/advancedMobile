@@ -1,3 +1,6 @@
+//Author: Kenny Grannas
+//Last Edit: 2/13/0220
+
 import 'package:grannas_exam0_dart/grannas_exam0_dart.dart'
     as grannas_exam0_dart;
 import 'dart:math';
